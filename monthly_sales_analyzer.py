@@ -23,6 +23,9 @@ sales_data = [
 ]
 
 def total_sales_by_product(data, product_key):
+    for item in data:
+        print(item[product_key])
+
     """Calculates the total sales of a specific product in 30 days."""
     pass
 
